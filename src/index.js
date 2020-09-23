@@ -1,1 +1,4 @@
-import './styles.css';
+import './sass/styles.scss';
+import './js/task-01';
+import './js/task-02';
+import './js/task-03';
