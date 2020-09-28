@@ -13,10 +13,8 @@ const makeTransaction = transaction => {
 
       if (canProcess) {
         resolve({ id: transaction.id, time: delay });
-        // onSuccess(transaction.id, delay);
       } else {
         reject(transaction.id);
-        // onError(transaction.id);
       }
     }, delay);
   });
